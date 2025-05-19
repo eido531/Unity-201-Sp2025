@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 458469e1954b346499a273cd5977ea2c, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 4a94c5e6dea9f17408662ba85a54b9d5, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -767,7 +767,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4535,7 +4535,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!215 &352143319
 ReflectionProbe:
@@ -9108,8 +9108,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 5.3503084, y: 2.4879227, z: 11.421032}
-  m_BoxOffset: {x: 0.008924723, y: -1.1636972, z: 0.4125805}
+  m_BoxSize: {x: 5.3503084, y: 5.357374, z: 11.421032}
+  m_BoxOffset: {x: 0.008924723, y: 0.27102852, z: 0.4125805}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -9921,10 +9921,10 @@ Light:
   m_GameObject: {fileID: 762495527}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 4
-  m_Color: {r: 0.97015035, g: 1, b: 0.8726415, a: 1}
-  m_Intensity: 1
-  m_Range: 10
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 0.68235296}
+  m_Intensity: 200
+  m_Range: 13
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -9954,7 +9954,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 8900000, guid: 1312195715c06e248a2d8536ef48431e, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -9962,7 +9962,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -9986,7 +9986,7 @@ Transform:
   m_GameObject: {fileID: 762495527}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.52, y: 12.26, z: -29.29}
+  m_LocalPosition: {x: 1.85, y: 14.98, z: -29.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12060,7 +12060,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 8.831615, y: 4.3333416, z: 8.928987}
+  m_BoxSize: {x: 20.649006, y: 14.281086, z: 21.20963}
   m_BoxOffset: {x: 0.008924484, y: 1.7937355, z: 0.4125805}
   m_NearClip: 0.3
   m_FarClip: 1000
@@ -12087,7 +12087,7 @@ Transform:
   m_GameObject: {fileID: 952845316}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.52, y: 12.05, z: -29.52}
+  m_LocalPosition: {x: 1.52, y: 11.67, z: -29.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21945,7 +21945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1964257d3c9950f47b8e54d00838ca10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.257629
+      value: -8.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1964257d3c9950f47b8e54d00838ca10, type: 3}
       propertyPath: m_LocalPosition.z
