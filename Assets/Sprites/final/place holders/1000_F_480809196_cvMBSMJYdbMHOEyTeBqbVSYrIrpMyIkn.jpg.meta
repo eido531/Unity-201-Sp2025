@@ -100,12 +100,12 @@ TextureImporter:
       name: warning
       rect:
         serializedVersion: 2
-        x: 22
-        y: 118
-        width: 164
-        height: 50
+        x: 48
+        y: 120
+        width: 112
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -127,7 +127,7 @@ TextureImporter:
         width: 93
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,7 +149,7 @@ TextureImporter:
         width: 144
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: hazard sign
       rect:
         serializedVersion: 2
-        x: 432
-        y: 299
-        width: 31
-        height: 26
+        x: 436
+        y: 301
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,6 +180,50 @@ TextureImporter:
       bones: []
       spriteID: 731d4a9dce3cfa44e8d3bc6c3de21488
       internalID: -13033054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warnin
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 275
+        width: 394
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed4cdcee769b684a8c24e3751650571
+      internalID: 1052099933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776bb16f813e36b419733d1e86bda2a2
+      internalID: 472014406
       vertices: []
       indices: 
       edges: []
@@ -198,9 +242,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      1000_F_480809196_cvMBSMJYdbMHOEyTeBqbVSYrIrpMyIkn_0: -705019587
+      Arrow: 472014406
       fancy hazard tape: -402372844
       hazard sign: -13033054
       hazard tape: -962311149
+      type with frame: -1802659205
+      warnin: 1052099933
       warning: 1485890088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
