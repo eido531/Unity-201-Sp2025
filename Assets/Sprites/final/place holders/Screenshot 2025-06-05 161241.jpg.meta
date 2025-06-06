@@ -105,7 +105,7 @@ TextureImporter:
         width: 408
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -119,15 +119,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: name tab 2
+      name: type frame
       rect:
         serializedVersion: 2
-        x: 81
-        y: 301
-        width: 297
-        height: 60
+        x: 103
+        y: 300
+        width: 57
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,7 +155,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       name tab: 1445228454
-      name tab 2: 240705538
+      type frame: 240705538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

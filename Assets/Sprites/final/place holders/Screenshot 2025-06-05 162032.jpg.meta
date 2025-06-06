@@ -149,7 +149,7 @@ TextureImporter:
         width: 189
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,6 +158,50 @@ TextureImporter:
       bones: []
       spriteID: 5f4602ad3f4e84f408cd9c419e4e3a27
       internalID: -1137991621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame extra
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 336
+        width: 189
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ca8a4095de51c4aabf69fb0c999f4a
+      internalID: 1376886963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edge extra
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 336
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887801220e18a28409d9bf3307c6e384
+      internalID: -750502424
       vertices: []
       indices: 
       edges: []
@@ -176,6 +220,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      edge extra: -750502424
+      frame extra: 1376886963
       lower: -1137991621
       name tab closed: -613438046
       upper: -251023786

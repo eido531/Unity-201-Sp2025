@@ -147,7 +147,7 @@ TextureImporter:
         x: 584
         y: 122
         width: 144
-        height: 51
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,6 +228,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: warning big
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 19
+        width: 179
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec463b2dca1b534786b20e508069173
+      internalID: 1568519743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Danger Big
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 31
+        width: 148
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c321fbddd6f6a547a3f44210229c46c
+      internalID: 1634516336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -242,14 +286,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1000_F_480809196_cvMBSMJYdbMHOEyTeBqbVSYrIrpMyIkn_0: -705019587
       Arrow: 472014406
+      Danger Big: 1634516336
       fancy hazard tape: -402372844
       hazard sign: -13033054
       hazard tape: -962311149
       type with frame: -1802659205
       warnin: 1052099933
       warning: 1485890088
+      warning big: -705019587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
